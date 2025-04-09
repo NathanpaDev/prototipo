@@ -8,10 +8,10 @@ public class MinhaClasse {
 
         String nomeCompleto = nomeCompleto(meuNome, meuSobrenome);
         System.out.println(nomeCompleto);
-
     }
 
     public static String nomeCompleto(String meuNome, String meuSobrenome) {
         return "Resultado do metodo " + meuNome.concat(" ").concat(meuSobrenome);
     }
+
 }
